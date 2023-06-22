@@ -113,4 +113,5 @@ Q.pop();
 ```
 
 ## [Problems to solve on Queue ](https://www.w3resource.com/cpp-exercises/queue/index.php)
-<a href="https://www.w3resource.com/cpp-exercises/queue/index.php" target="_blank">Problems to solve on Queue</a>
+
+# **3️⃣Array list**
