@@ -1,8 +1,12 @@
+<p><a href="https://www.asu.edu.eg/"><img align="right" src="https://ums.asu.edu.eg/images/logo.png" width="100" /></a></p>
 <p><img align="right" src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" width="70" /></a></p>
 <div align=left>
 <h1>
   Data Structures implementation 
 </h1>
+  <h3>
+    This repo implements many Data structures in a professinal way using C++ programming language .
+  </h3>
  <h5>
     "Data structures" course at FCIS - ASU 
         (4th semester)
