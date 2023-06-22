@@ -25,11 +25,11 @@ private:
 
 public:
 	linkedlist();
-	int lenght();
-	void insertat(int, T);
-	void deleteat(int);
-	T at(int);
-	void append(T);
+	int lenght();                       //return the no. of elements in the list
+	void insertat(int, T);              //to insert an element at a certain position
+	void deleteat(int);                 //to delete an element at a certain position
+	T at(int);                          //return an element at a certain position
+	void append(T);                     //insert an element at the end of the list
 	~linkedlist();
 };
 

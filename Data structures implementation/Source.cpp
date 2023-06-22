@@ -12,6 +12,9 @@
 #include"ArrayList.h"
 #include"ArrayList.cpp"
 
+#include"BinarySearchTree.h"
+#include"BinarySearchTree.cpp"
+
 using namespace std;
 int main()
 { 
@@ -114,7 +117,7 @@ int main()
 	Arrl.Append(2);
 	Arrl.Append(3);
 	Arrl.Append(4);
-	cout << "creating an arraylist with some elements :" << endl;
+	cout << "creating an arraylist with some elements :" << endl ;
 	cout << "Lenght of the arraylist: " << Arrl.Length() << " elements" << endl;
 	for (int i = 0; i < Arrl.Length(); i++)
 		cout << Arrl.At(i) << " , ";
@@ -127,6 +130,26 @@ int main()
 		cout << Arrl.At(i) << " , ";
 	cout << endl;
 	cout << endl;
+
+
+	cout << "///////////////////////////////////    BinarySearchTree    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ " << endl;
+	BinarySearchTree<int> B;
+	
+
+	B.insert(100);
+	B.insert(200);
+	B.insert(90);
+	B.insert(150);
+	B.insert(125);
+	B.insert(88);
+	B.insert(99);
+	B.insert(210);
+
+
+	cout << "creating a BST with some elements then displaying them in ascending order :" << endl;
+
+	B.traverse(INORDER);
+
 
 	return 0;
 
