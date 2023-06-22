@@ -1,6 +1,7 @@
 #include<iostream>
 
 #include"Stack.h"
+#include"Stack.cpp"
 
 #include"Queue.h"
 #include"Queue.cpp"
@@ -19,7 +20,7 @@ int main()
 	
 	
 	//Stack
-	Stack s;
+	Stack <int> s;
 	s.push(10);
 	s.push(20);
 	s.push(30);
