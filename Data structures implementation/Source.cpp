@@ -9,6 +9,9 @@
 #include"linkedlist.h"
 #include"linkedlist.cpp"
 
+#include"ArrayList.h"
+#include"ArrayList.cpp"
+
 using namespace std;
 int main()
 { 
@@ -100,6 +103,29 @@ int main()
 			cout << " ---> ";
 		}
 	}
+	cout << endl;
+	cout << endl;
+
+
+	cout << "///////////////////////////////////    ArrayList    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ " << endl;
+	ArrayList<int> Arrl;
+	
+	Arrl.Append(1);
+	Arrl.Append(2);
+	Arrl.Append(3);
+	Arrl.Append(4);
+	cout << "creating an arraylist with some elements :" << endl;
+	cout << "Lenght of the arraylist: " << Arrl.Length() << " elements" << endl;
+	for (int i = 0; i < Arrl.Length(); i++)
+		cout << Arrl.At(i) << " , ";
+	cout << endl;
+
+	cout << "Deleting element at index 1 then insert element of value 100 at index 2 " << endl;
+	Arrl.deleteAt(1);
+	Arrl.insertAt(2, 100);
+	for (int i = 0; i < Arrl.Length(); i++)
+		cout << Arrl.At(i) << " , ";
+	cout << endl;
 	cout << endl;
 
 	return 0;
