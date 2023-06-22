@@ -90,7 +90,7 @@ S.pop();
 - Linked list
 - Stack
 
-- ## **Operations need to be implemented to create a queue :**
+ ## **Operations need to be implemented to create a queue :**
  - enqueue : Add element to the back
  - dequeue : Remove an element from the front 
  - frontf : Return the front element
@@ -99,4 +99,17 @@ S.pop();
  - isempty : return true if queue is empty
  - isfull : return true if the queue is full
  
-   
+ ## **STL used for Queue**
+```bash
+//deque<T> Q;
+queue<int> Q;
+Q.push(10);
+Q.push(20);
+Q.push(30);
+Q.size();
+Q.front();
+Q.back();
+Q.pop();
+```
+
+## [Problems to solve on Queue](https://www.w3resource.com/cpp-exercises/queue/index.php)
