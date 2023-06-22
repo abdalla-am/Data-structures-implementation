@@ -49,3 +49,9 @@
 ### - Top : return the top element
 ### - Empty : Check if the stack is empty
 ### - Expand : increase the size of the array if Stack is full
+
+<br>
+
+## [Problems to solve on stack](https://www.w3resource.com/cpp-exercises/stack/index.php)
+
+--------
