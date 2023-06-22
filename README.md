@@ -49,7 +49,7 @@
 - Array (used in the repo)
 - Linked list
 
-## **There are some basic operations that allow us to perform different actions on a stack :**
+## **Operations need to be implemented to create a stack :**
  - lenght : return number of elements in the stack
  - Push : Add an element to the top of a stack
  - Pop : Remove an element from the top of a stack
@@ -84,3 +84,19 @@ S.pop();
 
 ## **What is the complexity when using Queue ?**
 #### For the array-based implementation of a Queue , the enqueue and dequeue operations take constant time, i.e. `O(1)` . 
+
+## **Implementation of Queue can be done by using :**
+- Array (used in the repo)
+- Linked list
+- Stack
+
+- ## **Operations need to be implemented to create a queue :**
+ - enqueue : Add element to the back
+ - dequeue : Remove an element from the front 
+ - frontf : Return the front element
+ - backf : Return the back element
+ - lenthf : return no. of elements in the queue
+ - isempty : return true if queue is empty
+ - isfull : return true if the queue is full
+ 
+   
