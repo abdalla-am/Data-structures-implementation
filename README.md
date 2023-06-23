@@ -125,7 +125,7 @@ S.top();             //return the top element
 ## **What is Arraylist ?**
 ####  They are resizable arrays, also called dynamic arrays, are data structures that store elements in sequential order and whose size can be increased or decreased by adding or removing elements.
 
-![picture alt](https://miro.medium.com/v2/resize:fit:1200/0*5w9-ibvGwT1EpeH9.png "Stack data structure")
+![picture alt](https://miro.medium.com/v2/resize:fit:1200/0*5w9-ibvGwT1EpeH9.png "Arraylist data structure")
 
 ## **When we use Array list ?**
 #### ArrayLists are a type of collection that can be used to store various types of data. This means two different classes like string and integer can be stored together in a single collection. There are both advantages and disadvantages to ArrayLists.
@@ -167,6 +167,16 @@ V.size();               // Returns the number of elements in the vector.
 
 # **4️⃣Linkedlist**
 
+## **What is Linkedlist ?**
+#### A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers
+
+![picture alt](https://media.geeksforgeeks.org/wp-content/uploads/20220712172013/Singlelinkedlist.png "Linkedlist data structure")
+
+## **When we use Linkedlist ?**
+- Linked Lists are used when the number of elements is not known in advance i.e. size is not known as linked lists support dynamic memory allocation.
+- Linked Lists can be used for the manipulation of polynomials.
+- Linked lists are used for performing arithmetic operations on long integers.
+
 ## **What is the complexity when using Linkedlist ?**
 | ***Operation*** | ***Time complexity*** |
 | --- | --- |
@@ -176,3 +186,21 @@ V.size();               // Returns the number of elements in the vector.
 | Get by index | `O(N)` |
 | Remove by value| `O(N)` |
 | Remove by index | `O(N)` |
+
+## **Operations need to be implemented to create a stack :**
+- Length : returns number of elements.
+- Append : Add an element at the end.
+- At : returns the element at specified position.
+- InsertAt : add an element at specific position.
+- DeleteAt : remove an element at specific position
+
+## **STL used for Linkedlist**
+```bash
+list<int> L;                
+L.push_back(value);         //Inserts a new element at the end of the list.
+L.pop_back();               //Delete the element at the end of the list.
+L.push_front();             //Inserts a new element at the beginning of the list.
+L.pop_front();              //Delete the element at the beginning of the list.
+L.empty()                   //Returns whether the list container is empty .
+L.clear()                   //Removes all elements from the list container.
+```
