@@ -210,3 +210,8 @@ L.pop_front();              //Delete the element at the beginning of the list.
 L.empty()                   //Returns whether the list container is empty .
 L.clear()                   //Removes all elements from the list container.
 ```
+## [Problems to solve on List](https://www.w3resource.com/cpp-exercises/linked_list/index.php)
+<br>
+<br>
+
+#  **5️⃣Binary Search Tree(BST)**
