@@ -60,9 +60,11 @@
 ## **STL used for Stack**
 ```bash
 Stack <int> S;
-S.push(1);
-S.top()
-S.pop();
+S.empty();           //return weather stack is empty or not
+S.push(value);       //Add an element to the top of a stack
+S.pop();             //Remove an element from the top of a stack
+S.size();            //return the size of the stack
+S.top();             //return the top element
 ```
 
 
