@@ -102,17 +102,19 @@ S.top();             //return the top element
  - isfull : return true if the queue is full
  
  ## **STL used for Queue**
-```bash
-//deque<T> Q;
-queue<int> Q;
-Q.push(10);
-Q.push(20);
-Q.push(30);
-Q.size();
-Q.front();
-Q.back();
-Q.pop();
-```
+
+
+| ***queue<int> Q;*** | ***deque<int> Q;*** | ***Functionality*** |
+| --- | --- | ---|
+| Q.empty(); | Q.empty(); | Returns whether the queue is empty |
+| Q.pop(); | Q.pop_front(); | Removes the element at the front of the queue |
+| Q.push(); | Q.push_back(); | Adds an element to the end of the queue |
+| Q.size(); | Q.size(); | Returns the number of elements in the queue |
+| Q.front(); | Q.front(); | Returns the front element |
+| Q.back();  | Q.back(); | Returns the back element. |
+| --  | Q.pop_back(); | Remove last element |
+| --  | Q.push_front(); | Adds an element at the start |
+
 
 ## [Problems to solve on Queue ](https://www.w3resource.com/cpp-exercises/queue/index.php)
 <br>
@@ -164,3 +166,13 @@ V.size();               // Returns the number of elements in the vector.
 <br>
 
 # **4️⃣Linkedlist**
+
+## **What is the complexity when using Linkedlist ?**
+| ***Operation*** | ***Time complexity*** |
+| --- | --- |
+| Insert at last index | `O(1)` |
+| Insert at given index | `O(N)` |
+| Search by value | `O(N)` |
+| Get by index | `O(N)` |
+| Remove by value| `O(N)` |
+| Remove by index | `O(N)` |
