@@ -177,6 +177,12 @@ V.size();               // Returns the number of elements in the vector.
 - Linked Lists can be used for the manipulation of polynomials.
 - Linked lists are used for performing arithmetic operations on long integers.
 
+## There are four key types of linked lists:
+- Singly linked lists (our focus)
+- Doubly linked lists
+- Circular linked lists
+- Circular doubly linked lists
+
 ## **What is the complexity when using Linkedlist ?**
 | ***Operation*** | ***Time complexity*** |
 | --- | --- |
@@ -187,7 +193,7 @@ V.size();               // Returns the number of elements in the vector.
 | Remove by value| `O(N)` |
 | Remove by index | `O(N)` |
 
-## **Operations need to be implemented to create a stack :**
+## **Operations need to be implemented to create a Singly Linkedlist :**
 - Length : returns number of elements.
 - Append : Add an element at the end.
 - At : returns the element at specified position.
