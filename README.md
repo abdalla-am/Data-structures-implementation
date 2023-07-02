@@ -225,3 +225,40 @@ L.clear()                   //Removes all elements from the list container.
 <br>
 
 #  **5️⃣Binary Search Tree(BST)**
+
+## **What is Binary search tree (BST) ?**
+#### Binary Search Tree is a node-based binary tree data structure which has the following properties:
+- he left subtree of a node contains only nodes with keys lesser than the node’s key.
+- The right subtree of a node contains only nodes with keys greater than the node’s key.
+- The left and right subtree each must also be a binary search tree.
+
+  ![picture alt](https://miro.medium.com/v2/resize:fit:1400/0*cfgc3gvJ4cJiFB9G.png "Types of BST")
+
+  ## **Types of BST : **
+  ### ▶️ Full Binary Tree : a Binary Tree in which every node has 0 or 2 children .
+  ### ▶️ Complete Binary Tree : has all levels completely filled with nodes except the last level and in the last level, all the nodes are as left side as possible.
+  ### ▶️ Perfect Binary Tree : a Binary Tree in which all internal nodes have 2 children, and all the leaf nodes are at the same depth or same level.
+  ### ▶️ Balanced Binary Tree : a Binary tree in which height of the left and the right sub-trees of every node may differ by at most 1.
+  ### ▶️ Degenerate Binary Tree : a Binary Tree where every parent node has only one child node.
+  ### ▶️ A skewed binary tree  : a type of binary tree in which all the nodes have only either one child or no child.
+
+## **When we use Binary Search Tree ?**
+#### a binary search tree is a data structure that allows for fast insertion, removal, and lookup of items while offering an efficient way to iterate them in sorted order, For these reasons, we use binary search trees when we need efficient ways to access or modify a collection while maintaining the order of its elements.
+
+## **What is the complexity when using Binary Search Tree ?**
+| ***Operation*** | ***Time complexity (Average Complexity)*** |
+| --- | --- |
+| Access an element | `θ(log(N))` |
+| Search for an element | `θ(log(N))` |
+| Insert an element | `θ(log(N))` |
+| Delete an element | `θ(log(N))` |
+
+### And the worst case is O(N)
+
+## **Operations need to be implemented to create a Binary Search Tree :**
+- Contains: returns true if “value” exists in the tree.
+- Insert: adds a value to the tree.
+- Traverse: (display)  displays all nodes in the tree .
+- FindNode :
+- 
+
