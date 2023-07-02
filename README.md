@@ -17,6 +17,16 @@
 ## **Why we need Data structure ?🤔**
 ### Data structures make it easy for users to access and work with the data they need in appropriate ways. Most importantly, data structures frame the organization of information so that machines and humans can better understand it.
 
+## There are two categories of data structures :
+   - Linear data structures
+      - Stack
+      - Queue
+      - Lists
+   - Non linear data structures
+      - Trees
+      - Graphs
+<br>
+  📌Both will be discussed
 
 ## **List Of Implemented Algorithms:**
 - [x] Stack
