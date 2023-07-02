@@ -287,7 +287,7 @@ L.clear()                   //Removes all elements from the list container.
   ```
 
 
-  ## **Set vs Maps : **
+  ## **Set vs Maps :**
   | ***Set*** | ***Map*** |
   | --- | --- |
   | Set is used to store all the unique elements. | map is used to store all the unique elements. |
