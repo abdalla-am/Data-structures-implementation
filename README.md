@@ -114,7 +114,7 @@ S.top();             //return the top element
  ## **STL used for Queue**
 
 
-| ***queue<int> Q;*** | ***deque<int> Q;*** | ***Functionality*** |
+| ***queue <int> Q;*** | ***deque <int> Q;*** | ***Functionality*** |
 | --- | --- | ---|
 | Q.empty(); | Q.empty(); | Returns whether the queue is empty |
 | Q.pop(); | Q.pop_front(); | Removes the element at the front of the queue |
@@ -242,23 +242,60 @@ L.clear()                   //Removes all elements from the list container.
   ### ▶️ Degenerate Binary Tree : a Binary Tree where every parent node has only one child node.
   ### ▶️ A skewed binary tree  : a type of binary tree in which all the nodes have only either one child or no child.
 
-## **When we use Binary Search Tree ?**
-#### a binary search tree is a data structure that allows for fast insertion, removal, and lookup of items while offering an efficient way to iterate them in sorted order, For these reasons, we use binary search trees when we need efficient ways to access or modify a collection while maintaining the order of its elements.
+  ## **When we use Binary Search Tree ?**
+  #### a binary search tree is a data structure that allows for fast insertion, removal, and lookup of items while offering an efficient way to iterate them in sorted 
+  order, For these reasons, we use binary search trees when we need efficient ways to access or modify a collection while maintaining the order of its elements.
 
-## **What is the complexity when using Binary Search Tree ?**
-| ***Operation*** | ***Time complexity (Average Complexity)*** |
-| --- | --- |
-| Access an element | `θ(log(N))` |
-| Search for an element | `θ(log(N))` |
-| Insert an element | `θ(log(N))` |
-| Delete an element | `θ(log(N))` |
+  ## **What is the complexity when using Binary Search Tree ?**
+  | ***Operation*** | ***Time complexity (Average Complexity)*** |
+  | --- | --- |
+  | Access an element | `θ(log(N))` |
+  | Search for an element | `θ(log(N))` |
+  | Insert an element | `θ(log(N))` |
+  | Delete an element | `θ(log(N))` |
 
-### And the worst case is O(N)
+  ### And the worst case is O(N)
 
-## **Operations need to be implemented to create a Binary Search Tree :**
-- Contains: returns true if “value” exists in the tree.
-- Insert: adds a value to the tree.
-- Traverse: (display)  displays all nodes in the tree .
-- FindNode :
-- 
+  ## **Operations need to be implemented to create a Binary Search Tree :**
+  - Contains: returns true if “value” exists in the tree.
+  - Insert: adds a value to the tree.
+  - FindNode: Retrurn the address of a certain element in the tree if exist .
+  - Traverse: (display)  displays all nodes in the tree .
+     - Inorder : Left, Root, Right (Ascending order)
+     - preOrder : Root, Left, Right 
+     - postOrder : Left, Right, Root
 
+  ## **STL used for BST**
+  ### SET OR MAP (BOTH ARE BST STLs)
+  ```bash
+  set <int> S;
+  //Some functions in Set
+  S.insert(val);                //insert an element in the tree
+  S.begin();                    //Returns an iterator to the first element in the set.
+  S.end();                      //Returns an iterator to the theoretical element that follows the last element in the set.
+  S.size();                     //Returns the number of elements in the set.
+  S.empty();                    //Returns whether the set is empty.
+  S.clear();                    //Removes all the elements from the set.
+  S.cbegin();                   //Returns a constant iterator pointing to the first element in the container.
+
+  map<int> M;
+  //Some functions in Map
+  M.begin();                    // Returns an iterator to the first element in the map.
+  M.size();                     // Returns the number of elements in the map.
+  M.clear();                    // Removes all the elements from the map.
+  M.count();                    // Returns the number of matches to element with key-value ‘g’ in the map. –> O(log n).
+  ```
+
+
+  ## **Set vs Maps : **
+  | ***Set*** | ***Map*** |
+  | --- | --- |
+  | Set is used to store all the unique elements. | map is used to store all the unique elements. |
+  | set<data_type>name_of_set; | map<data_type , data_type>name_of_map; |
+  | It stores the elements in increasing order | It stores the elements in key , value pairs. |
+  | Set is implemented using Binary search tree. | Map is implemented using Balance Binary tree. |
+  | Sets are traversed using the iterators. | It is defined in #include <map> header file. |
+
+  ## [Problems to solve on Binary Search Tree](https://medium.com/coding-interview/binary-tree-and-binary-search-tree-cad0a434d32)
+  <br>
+  <br>
