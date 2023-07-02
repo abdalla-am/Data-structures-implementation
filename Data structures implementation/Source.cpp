@@ -144,8 +144,8 @@ int main()
 	B.insert(88);
 	B.insert(99);
 	B.insert(210);
-
-
+	cout << "BST created " << endl;
+	cout << "The adderss of element 99 in the memory :" << B.findNode(99) <<endl ;
 	cout << "creating a BST with some elements then displaying them in ascending order :" << endl;
 
 	B.traverse(INORDER);
