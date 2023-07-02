@@ -2,7 +2,7 @@
 <p><img align="right" src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" width="70" /></a></p>
 <div align=left>
 <h1>
-  Data Structures implementation 
+  Data Structures Overview & implementation 
 </h1>
   <h3>
     This repo implements many Data structures in a professinal way using C++ programming language .
